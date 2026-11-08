@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FitLog — Workout Library
 
-## Getting Started
+FitLog is a dark-themed workout library application built with Next.js. Users can explore workouts, view workout details, create a daily workout plan, and save workouts for later.
 
-First, run the development server:
+## Live Website
+
+[Visit FitLog](https://fitlog-workout-library-u3q2.vercel.app/)
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- DaisyUI
+- React Hot Toast
+
+## Features
+
+1. **Workout Library:** Explore 12 different workouts covering major muscle groups.
+2. **Workout Details:** View workout descriptions, equipment, difficulty, sets, reps, and instructions.
+3. **Today's Plan:** Add up to 5 workouts to your daily workout plan.
+4. **Saved Workouts:** Save your favorite workouts for later.
+5. **Workout Tracking:** Mark workouts as completed and track total exercises, minutes, and calories.
+6. **Sorting:** Sort workouts by duration, calories, and rating.
+7. **LocalStorage:** Keep your plan and saved workouts after refreshing the browser.
+8. **Responsive Design:** Works on mobile, tablet, and desktop devices.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/alfojan/fitlog-workout-library.git
+```
+
+Go to the project directory:
+
+```bash
+cd fitlog-workout-library
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Workout data is provided by:
 
-## Learn More
+`https://api.abcz.workers.dev/api/fitlog`
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: [alfojan](https://github.com/alfojan)
