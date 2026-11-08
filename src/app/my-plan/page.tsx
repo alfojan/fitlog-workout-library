@@ -133,7 +133,10 @@ const MyPlan = () => {
           /* Workout Cards */
           sortedWorkouts.map((workout) => {
             // Check workout completion status
-            const isDone = "isDone" in workout ? workout.isDone : false;
+            const isDone =
+              "isDone" in workout && typeof workout.isDone === "boolean"
+                ? workout.isDone
+                : false;
 
             return (
               <div
